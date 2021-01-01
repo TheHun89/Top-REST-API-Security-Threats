@@ -11,10 +11,16 @@
 ### API Security Mechanisms
 
 
-**mTLS**
+[**mTLS**](https://wott.io/blog/tutorials/2019/09/09/what-is-mtls)
+
+* mTLS is just an extension of TLS (Transport Layer Security). This is commonly found in verifying endpoints and for encrypting communications and for TLS specifically, browsers. The ‘HTTPS’ in a URL is the evidence for this. This part of the URL verifies the identity of the server (the website you’re accessing), to you the client. Unlike a password which is manually entered by a single user, TLS is typically managed by cryptographic certificates. Most TLS protocols usually verify this with an x509 certificate; and it’s typically the client requesting a valid certificate from the server (DNS name on server must match that of the certificate). Secure Sockets Layer (SSL) security is also based off this principle and HTTPS is its successor.
+
+The main thing that makes mTLS different (and arguably more secure) is that it requires both the server and client to verify each other: a handshake. This is particularly useful in a scenario where you are the server and not the client.
 
 
 **x509**
+
+* X.509 is a standard format for public key certificates, digital documents that securely associate cryptographic key pairs with identities such as websites, individuals, or organizations.  Many of the certificates that people refer to as Secure Sockets Layer (SSL) certificates are in fact X.509 certificates.
 
 
 [**OAuth2 - Authorization**](https://www.youtube.com/watch?v=t4-416mg6iU)
