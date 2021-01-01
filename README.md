@@ -39,7 +39,7 @@
 * Although JWTs can be encrypted to also provide secrecy between parties, we will focus on signed tokens. Signed tokens can verify the integrity of the claims contained within it, while encrypted tokens hide those claims from other parties. When tokens are signed using public/private key pairs, the signature also certifies that only the party holding the private key is the one that signed it.
 
 
-[**PAP, PDP, PEP, PIP**](https://www.yenlo.com/blog/api-policies-pap-pdp-pep-and-pip.-oh-my)
+[**Policy: PAP, PDP, PEP, PIP**](https://www.yenlo.com/blog/api-policies-pap-pdp-pep-and-pip.-oh-my)
 
 
 [**WS-Security**](https://www.soapui.org/docs/soapui-projects/ws-security/)
