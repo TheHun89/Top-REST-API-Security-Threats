@@ -39,7 +39,7 @@
 **Basic Auth**
 
 * Basic authentication is a simple authentication scheme built into the HTTP protocol. The client sends HTTP requests with the Authorization header that contains the word Basic word followed by a space and a base64-encoded string username:password. 
-```Authorization: Basic ZGVtbzpwQDU1dzByZA==```
+Authorization: Basic ZGVtbzpwQDU1dzByZA==
 Note: Because base64 is easily decoded, Basic authentication should only be used together with other security mechanisms such as HTTPS/SSL.
 
 * ABAC/RBAC based policies
